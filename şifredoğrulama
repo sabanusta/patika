@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+  class Main {
+
+  public static void main( String[] args) {
+ 
+    String userName;
+   
+     String pasport1;
+    String cevap1;
+    String cevap2;
+    String pasport2;
+    String pasport3;
+   
+   
+   
+     
+
+   
+    Scanner input1= new Scanner(System.in ) ;
+    System.out.println(" KULLANICI ADINIZ :");
+    userName = input1.nextLine ();
+
+     Scanner input2= new Scanner(System.in ) ;
+    System.out.println("ŞİFRENİZ :");
+    pasport1 = input1.nextLine ();
+
+    if (userName.equals("java") && pasport1.equals("patika1453") ){
+      System.out.println("Giriş yapıldı");
+   
+    }else{
+      System.out.println("Bilgileriniz yanlış ");
+      Scanner input3= new Scanner(System.in ) ;
+    System.out.println("Şifrenizi Sıfırlamak istermisiniz :");
+     cevap1 = input1.nextLine ();
+      if (cevap1.equals("evet")) {
+        Scanner input4= new Scanner(System.in ) ;
+        System.out.println("YENİ ŞİFRENİZİ GİRİNİZ :");
+         pasport2 = input4.nextLine ();
+
+        Scanner input5= new Scanner(System.in ) ;
+        System.out.println("YENİ ŞİFRENİZİ TEKRAR GİRİNİZ :");
+         pasport3 = input5.nextLine ();
+       if (pasport2.equals("pasport3"));
+           System.out.println( "ŞİFRENİZ DEĞİŞTİRİLDİ");
+             
+           
+       
+       
+     
+         
+     
+       
+}
+   
+     
+     
+    }
+ 
+     
+     
+   
+       
+ 
+   
+}
+   
+   
+   
+   
+   
+
+    }
